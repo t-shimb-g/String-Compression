@@ -3,7 +3,7 @@
 This is an algorithm that uses Huffman codes to encode plaintext into a compressed binary sequence.
 
 ## Features
-- Compresses user-provided plaintext using Huffman Codes
+- Compresses user-provided plaintext using [Huffman codes](https://en.wikipedia.org/wiki/Huffman_coding)
 - Illustrates each step taken in compression process through terminal
 - Calculates compression percentage
 - Able to decompress bit sequence by tracing Huffman tree
