@@ -139,7 +139,7 @@ This is the message that is going to get compressed.
 Compressed to 46.6346% of original size
 ```
 
-### TODO:
+## TODO:
 - **File Compression**:
     - Read a text file, compress its contents using Huffman coding, and save the compressed data to a new file
     - Store the custom Huffman tree in the compressed file to enable decoding
