@@ -35,10 +35,10 @@ int main() {
     const std::string encoded_input = encode_string(input, huff_codes);
     std::cout << encoded_input << '\n';
 
+    const float compress_percent = encoded_input.length() * 100.0 / binary_input.length();
+    std::cout << "\nCompressed to " << compress_percent << "% of original size\n";
+
     std::cout << "\nDecoded:\n";
     const std::string decoded_input = decode_string(encoded_input, huff_tree);
     std::cout << decoded_input << '\n';
-
-    const float compress_percent = encoded_input.length() * 100.0 / binary_input.length();
-    std::cout << "\nCompressed to " << compress_percent << "% of original size\n";
 }
